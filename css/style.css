@@ -1,0 +1,130 @@
+body {
+  color: #4C5B68;
+  margin: 0;
+  padding: 0;
+  background-color: #1A1B1D;
+  text-align: center;
+	font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+  background-image: url("blade-runner.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  position: relative;
+  height: 100%;
+}
+
+.container {
+  padding: 10%;
+  width: 50%;
+  color: #46b8da;
+  position: relative;
+}
+
+.container h2 {
+  color: #316986;
+  text-shadow: 1px 1px 1px #FAFAFA;
+  position: relative;
+  text-align: left;
+	font-size: 3em;
+}
+
+#quoteContainer {
+  width: 70%;
+  background: #4C5B68;
+  position: sticky;
+  padding: 10px;
+  text-align: center;
+  height: 140px;
+  opacity: 0.7;
+  color: #fff;
+  font-size: 1em;
+	font-weight: 200;
+	line-height: 2em;
+	border: 1px solid #fafafa;
+}
+
+#buttonContainer {
+  width: 100%;
+  text-align: center;
+}
+
+#quoteButton {
+  font-weight: 300;
+  width: 71%;
+  margin-top: 10px;
+  border: 2px solid #46b8da;
+  color: #fff;
+  padding: 5px;
+  text-decoration: none;
+  opacity: 0.6;
+}
+
+#quoteButton:hover {
+  cursor: default;
+  background: #09c;
+  color: #fff;
+}
+
+#quoteButton:active {
+  cursor: pointer;
+}
+
+#quoteButton {
+  position: relative;
+  display: block;
+  margin-top: 20px 5px 10px 5px;
+}
+
+#quoteGenius {
+  font-style: italic;
+  font-weight: 800;
+  text-align: center;
+}
+
+.footer {
+  position: relative;
+  display: block;
+  background-color: #1B1C1E;
+  font-size: 18px;
+	font-weight: 100;
+  color: #999;
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+
+/* iPhone 6 landscape */
+
+@media only screen and (min-device-width: 375px) // or 213.4375em or 3in or 9cm
+and (max-device-width: 667px) // or 41.6875em
+and (width: 667px) // or 41.6875em
+and (height: 375px) // or 23.4375em
+and (orientation: landscape) and (color: 8) and (device-aspect-ratio: 375/667) and (aspect-ratio: 667/375) and (device-pixel-ratio: 2) and (-webkit-min-device-pixel-ratio: 2) {}
+
+/* iPhone 6 portrait */
+
+@media only screen and (min-device-width: 375px) // or 213.4375em
+and (max-device-width: 667px) // or 41.6875em
+and (width: 375px) // or 23.4375em
+and (height: 559px) // or 34.9375em
+and (orientation: portrait) and (color: 8) and (device-aspect-ratio: 375/667) and (aspect-ratio: 375/559) and (device-pixel-ratio: 2) and (-webkit-min-device-pixel-ratio: 2) {}
+
+/* iPhone 6+ */
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 3) {}
+
+/* iPhone 6+ portrait */
+
+/*iPhone 5 */
+
+@media screen and (device-aspect-ratio: 40/71) {}
+
+/*iPads
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)  { /* STYLES GO HERE */}

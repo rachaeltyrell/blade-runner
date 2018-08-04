@@ -1,0 +1,22 @@
+@media (min-width: 360px) {
+  body {
+    font-size: 1.0em;
+  }
+}
+
+@media (min-width: 500px) {
+  .container .wrapper,
+  .seven-day-fc .footer {
+    display: inline-block;
+    width: 45%;
+  }
+
+  .container .footer {
+    margin-left: 5%;
+  }
+
+  .wrapper .container {
+    width: 64px;
+    height: 64px;
+  }
+}
